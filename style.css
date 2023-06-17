@@ -1,0 +1,313 @@
+body{margin: 0;padding: 0%;}
+
+.header {
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    background: #6F6AF7;
+    padding: 50px 10px;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 1;
+    justify-content: center;
+    
+  }
+  h1{ 
+    position: absolute;
+    width: 215px;
+    height: 63px;
+    left: 40px;
+    top: -13px;
+    color: white;
+    
+    font-family: 'Delius Unicase';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 50.43px;
+    line-height: 79px;
+    
+    color: #FFFFFF;
+}
+
+  
+  .header a {
+    
+    position: relative;
+    width: 90px;
+    height: 33px;
+    left: 80px;
+    top: 4px;
+    color: white;
+    text-decoration: none;
+    margin: 10px 30px;
+    font-size: 25px;
+    padding: 10Px 18px;  
+ 
+  }
+
+
+  .search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 80%;
+    color: black;
+  
+  }
+  .right{float: right; padding: 0px 30px;}
+
+/*img{max-width: 200%;
+max-height: 200%;}*/
+
+  .banner-left{position: absolute;
+    left: 129px;
+    top: 225px;
+    padding: 0px 10px;
+    }
+
+/*
+*/
+  .banner{position: absolute;
+    width: 700px;
+    height: 360px;
+    left: 568px;
+    top: 220px;
+    display: flex;
+    flex-direction: column;
+    background: #E5D8FF;
+    border: 6px solid #FFFFFF;
+    box-shadow: inset 3px 5px 27px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;}
+
+  #search-bar{ 
+    position: absolute;
+    left: 1128px;
+    top: 55px;
+    }
+
+  .hamburger{
+    position: absolute;
+    left: 1250px;
+    top: 52px;
+  }
+
+  .banner-right{position: absolute;
+    width: 650px;
+    height: 30px;
+    left: 600px;
+    top: 230px;
+    display: flex;
+    font-size: 22px;
+    flex-direction: column;
+    color: #6F7373;
+    font-family: 'DM Sans';
+    border: none ;
+    resize: vertical;
+  }
+
+
+  .social{
+    position: fixed;
+    top: 150px;
+    left: 1300px;
+    bottom: 20px; /* Adjust this value to position the icon vertically */
+    right: 20px; /* Adjust this value to position the icon horizontally */
+    z-index: 9999; /* Adjust this value to ensure the icon is on top of other elements if necessary */
+    opacity: 1; /* Adjust this value to set the initial opacity of the icon */
+    transition: opacity 0.3s ease;
+    border-radius: 12px;
+    border-color: #000000;
+  }
+  
+  .social:hover {
+    opacity: 10; /* Adjust this value to set the opacity of the icon on hover */
+  }
+  
+
+.social img{
+  height: 40px;
+  display: block;
+  width: fit-content;
+}
+#wp{
+  height: 25px;
+  width: 25px;
+position: absolute;
+left: 24.91%;
+right: 24.53%;
+top: 1.58%;
+bottom: 26.89%;
+}
+
+.box{left: 140px;
+top: 665px}
+
+.box1{position: absolute;
+width: 237px;
+height: 95px;
+left: 120px;
+top: 665px;
+
+background: #929DFF;
+box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+border-radius: 11px;}
+
+
+
+.box2{position: absolute;
+width: 237px;
+height: 95px;
+left: 420px;
+top: 665px;
+
+background: #734CF2;
+box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+border-radius: 11px;}
+
+.box3{position: absolute;
+  width: 237px;
+  height: 95px;
+  left: 720px;
+  top: 665px;
+  
+  background: #D288FF;
+  box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+  border-radius: 11px;}
+  
+
+.box4{position: absolute;
+  width: 237px;
+  height: 95px;
+  left: 1020px;
+  top: 665px;
+  
+  background: #000000;
+  box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+  border-radius: 11px;}
+
+#t1,#t2{color: white;
+  text-align: left ;
+padding: 0px 15px;
+font-size: 19px;}
+
+
+.footer{position: absolute;
+  width: 1140px;
+  height: 457px;
+  left: 120px;
+  top: 850px;
+  
+  background: #483EFF;
+  border-radius: 21px;}
+
+  #bt1{
+    position: absolute;
+    width: 230px;
+    height: 70px;
+    left: 171px;
+    top: 890px;
+
+    display: block;
+    cursor: pointer;
+    color: black;
+    text-align: center;
+    padding: 30px 0;
+    font-weight: bolder;
+    font-size: medium;
+    background: #BCE0F6;   
+    border-radius: 15px;
+    border: 3px white;}
+
+
+    #bt2{position: absolute;
+      width: 230px;
+      height: 70px;
+      left: 171px;
+      top: 1030px;
+      color:white;
+      font-weight: bolder;
+      text-align: center;
+      font-size: medium;
+      padding: 25px 0;
+      background: none;
+      border: 3px solid white;
+      border-radius: 15px;}
+
+      #more{
+        position: absolute;
+        left: 68px;
+        top: 18px;
+        color: white;
+     background: none;        
+       border: none;
+      }
+
+ 
+
+
+      #bt3{position: absolute;
+        width: 230px;
+        height: 70px;
+        left: 171px;
+        top: 1170px;
+        color:white;
+        font-weight: bolder;
+        text-align: center;
+        padding: 25px 0;
+        font-size: medium;
+        background: none;
+        border: 3px solid white;
+        border-radius: 15px;}
+
+      
+        .f4{position: absolute;
+          width: 790px;
+          height: 420px;
+          left: 452px;
+          top: 870px;
+          line-height: 1.8;
+          text-indent: 40px;
+          background: #FFFFFF;
+          border-radius: 19px;}
+
+#h1info{position: absolute;
+font-size: 30px;
+left: 30px;}
+          
+#info{position: absolute;
+  left: 15px;
+  top: 80px;
+  font-size: 18px;
+  color: #000000;
+  list-style: none;line-height: 2.5;
+  word-spacing: 20px;
+}
+
+.Next-btn{ position: absolute;
+  color: white;
+  text-align: center;
+  width: 120px;
+  height: 40px;
+  font-size: 15px;
+  top:350px;
+  left: 620px;
+  padding: 10px 10px;
+  overflow: hidden;;
+  background-color: #000000;border-radius: 5px;}
+
+
+.help{background-color: white;
+  border-radius: 100%;
+  position: fixed;
+  right: 75px;
+  bottom: 20px;
+  box-shadow: 4px 15px 35px rgba(0, 0, 0, 0.25);
+  padding: 7px;
+  width: 50px;
+  height: 50px;
+}
+
+.help img{ width: 50px;
+  height: 50px;}
